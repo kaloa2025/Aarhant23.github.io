@@ -1,3 +1,131 @@
-p{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,900,200');
+
+
+body {
+  background-color:black;
+  margin: 0;
+  color: white;
+}
+#top
+{
+    background-image:url("bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#nav_bar
+{
+    margin-top: 30px;
+}
+#nav_logo
+{
+    width: 230px;
+    margin-left:20px;
+}
+#nav_but
+{
+    background-color: transparent;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #45EDF2;
+    color: white;
+    margin-left:20px;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+.wrapper
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+h2.glitch
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800px;
+    position: relative;
+    font-size: 100px;
+    padding: 30px;
+} 
+h2.glitch::before
+  {
+    padding: 30px;
+    color: 'white';
+    content: "AARHANT'23";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+  }
+
+h2.glitch::after
+{
+    padding: 30px;
+    color: 'white';
+    content: "AARHANT'23";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+}
+h2.glitch::before
+{
+    left: 3px;
+    text-shadow: -2px 0 red;
+    animation-name: glitch-animation-1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse-alternate;
+}
+    
+  h2.glitch::after
+  {
+    left: -3px;
+    text-shadow: -2px 0 blue;
+    animation-name: glitch-animation-2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse-alternate;
+  }
+
+  @keyframes glitch-animation-1
+  {
+    $steps:20
+    @for $i from 0 through $steps 
+    #{percentage($i*(1/$steps))}
+      clip:rect(random(150)+px, 350px, random (150)+px, 30px)
+}
+
+@keyframes glitch-animation-2
+{
+  $steps:20
+  @for $i from 0 through $steps 
+    #{percentage($i*(1/$steps))} 
+      clip:rect(random(150)+px, 350px, random (150)+px, 30px)
 }
