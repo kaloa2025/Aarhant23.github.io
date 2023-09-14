@@ -23,10 +23,8 @@ body {
 }
 #nav_logo
 {
-    max-width: 230px;
+    width:60%;
     margin-left:20px;
-    min-width: 100px;
-
 }
 #nav_but
 {
@@ -45,6 +43,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     cursor: pointer;
+    width:60%;
 }
 ul {
     list-style-type: none;
