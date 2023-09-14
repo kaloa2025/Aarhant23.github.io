@@ -380,5 +380,17 @@ a:hover
 .h_header
 {
   float: inline-start;
+  display: flex;
   flex-direction: row;
+}
+
+#c_tble
+{
+  text-align: center;
+  font-size:smaller;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  margin-top: -3%;
+  padding: 1%;
 }
