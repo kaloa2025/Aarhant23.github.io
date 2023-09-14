@@ -24,7 +24,8 @@ body {
 }
 #nav_logo
 {
-    max-width:60%;
+    min-width:30%;
+    max-width: 60%;
     margin-left:20px;
 }
 #nav_but
@@ -49,7 +50,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     overflow: hidden;
     background-color: transparent;
   }
@@ -189,7 +190,7 @@ margin-top: 0%;
 #eid
 {
   text-align: center;
-  margin-top:15px ;
+  margin-top:5% ;
   color: #45EDF2;
   font-size:small ;
   font-weight: 400;
