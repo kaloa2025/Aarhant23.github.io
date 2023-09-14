@@ -367,3 +367,13 @@ hr
   50%  { transform: translate(0, 15px); }
   100%   { transform: translate(0, -0px); }   
 }
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+a:hover
+{
+  font-size:15px;
+}
+
