@@ -69,7 +69,6 @@ ul {
     background-position:center;
     width:100%;
     background-size: cover;
-    background-attachment: fixed;
 }
 #home2
 {background-image:url("home_bg.png");
