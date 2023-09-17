@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,900,200');
-
+@import "compass/css3";
 
 body {
   background-color:black;
@@ -24,7 +24,7 @@ body {
 }
 #nav_logo
 {
-    min-width:30%;
+    min-width:50%;
     max-width: 60%;
     margin-left:20px;
 }
@@ -72,32 +72,89 @@ ul {
 }
 #h_intro
 {
-  width:90%;
+  width:60%;
   padding-top: 10%;
-  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5px;
   font-size: small;
   font-weight: normal;
+}
+#h_intro_2
+{
+  text-align: right;
+}
+#h_but
+{
+  background-image: url(but_bg.png);
+  background-position: center;
+  border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    cursor: pointer;
+    max-width:100%;
 }
 #h_td1
 {font-weight: lighter;}
 #h_td2
-{font-size: large;}
+{font-size: large;
+text-align:right}
 #h_p1
 {
   text-align: center;
-  margin-bottom: 10%;
 }
+.glitch {
+  color: white;
+  font-weight: bolder;
+  font-size: 650%;
+  position: relative;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.glitch:hover
+{
+  width:80%;
+  margin-left: 10%;
+  font-size: 670%;
+  margin-right: 10%;
+}
+
 #h_p2
 {
   text-align: center;
   font-style: italic;
   font-weight: normal;
+  font-size: larger;
+  letter-spacing: 2px;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#h_p2:hover
+{
+  background-image: url('but_bg.png');
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 #h_p3
 {
   text-align: center;
-  font-size: smaller;
+  font-size: small;
   margin-bottom: 10%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  letter-spacing: 1px;
 }
 #h_p4
 {
@@ -107,10 +164,10 @@ ul {
 #t1
 {
   z-index: -1;
-  max-width: 20%;
+  max-width: 22%;
   min-width: 20%;
   padding-left: 22%;
-  margin-top: -5%;
+  margin-top: -5%
 }
 #t2
 {
@@ -125,7 +182,7 @@ ul {
   z-index: -1;
   max-width: 20%;
   min-width: 20%;
-  padding-left: 16%;
+  padding-left: 18%;
   margin-bottom:-5%
 }
 #t4
@@ -138,7 +195,7 @@ ul {
 }
 #t1:hover
 {
-  max-width: 22%;
+  max-width: 23%;
 }
 #t4:hover
 {
@@ -154,12 +211,24 @@ ul {
 #t_p1{
 text-align: center;
 margin-top: 0%;
+font-size: medium;
+font-weight: 400;
+letter-spacing: 2px;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
 }
 #t_p2
 {
   text-align: center;
   margin-top:-5px ;
   padding-bottom: 5%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: smaller;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 #about
 {
@@ -377,10 +446,9 @@ a:hover
   font-size:15px;
 }
 
-.h_header
+#h_header
 {
-  float: inline-start;
-  display: flex;
+  width: 100%;
   flex-direction: row;
 }
 
@@ -393,4 +461,248 @@ a:hover
   width: 60%;
   margin-top: -3%;
   padding: 1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+#li1{
+  max-width: 250px;
+  padding-top: 2%;
+  text-align: start;
+}
+  #t1
+{
+  z-index: -1;
+  max-width: 25%;
+  min-width: 20%;
+  padding-left: 12%;
+  margin-bottom:1%;
+}
+#t2
+{
+  z-index: -1;
+  max-width: 28%;
+  min-width: 25%;
+  padding-left: 6%;
+  margin-bottom: 5%;
+}
+#t3
+{
+  z-index: -1;
+  max-width: 20%;
+  min-width: 20%;
+  padding-left: 10%;
+  margin-bottom:15%;
+}
+#t4
+{
+  z-index: -1;
+  max-width: 22%;
+  min-width: 20%;
+  padding-left: 15%;
+  margin-bottom: 13%;
+}
+#t1:hover
+{
+  max-width: 23%;
+}
+#t4:hover
+{
+  max-width: 22%;
+}
+#nav_but
+{
+    background-color: transparent;
+    border-width: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #45EDF2;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    max-width:100%;
+    font-size: small;
+}
+.glitch {
+  color: white;
+  font-weight: bolder;
+  font-size: 250%;
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.glitch:hover
+{
+  width:60%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 270%;
+}
+#h_but
+{
+  margin-bottom:10%;
+}
+}
+@keyframes noise-anim {
+  0% {
+    clip: rect(50px, 9999px, 30px, 0);
+  }
+  5% {
+    clip: rect(93px, 9999px, 45px, 0);
+  }
+  10% {
+    clip: rect(45px, 9999px, 12px, 0);
+  }
+  15% {
+    clip: rect(97px, 9999px, 52px, 0);
+  }
+  20% {
+    clip: rect(89px, 9999px, 100px, 0);
+  }
+  25% {
+    clip: rect(23px, 9999px, 25px, 0);
+  }
+  30% {
+    clip: rect(83px, 9999px, 46px, 0);
+  }
+  35% {
+    clip: rect(61px, 9999px, 29px, 0);
+  }
+  40% {
+    clip: rect(9px, 9999px, 13px, 0);
+  }
+  45% {
+    clip: rect(10px, 9999px, 63px, 0);
+  }
+  50% {
+    clip: rect(38px, 9999px, 69px, 0);
+  }
+  55% {
+    clip: rect(76px, 9999px, 80px, 0);
+  }
+  60% {
+    clip: rect(3px, 9999px, 1px, 0);
+  }
+  65% {
+    clip: rect(6px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(34px, 9999px, 21px, 0);
+  }
+  75% {
+    clip: rect(12px, 9999px, 27px, 0);
+  }
+  80% {
+    clip: rect(6px, 9999px, 11px, 0);
+  }
+  85% {
+    clip: rect(53px, 9999px, 64px, 0);
+  }
+  90% {
+    clip: rect(8px, 9999px, 20px, 0);
+  }
+  95% {
+    clip: rect(73px, 9999px, 96px, 0);
+  }
+  100% {
+    clip: rect(84px, 9999px, 75px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(68px, 9999px, 50px, 0);
+  }
+  5% {
+    clip: rect(15px, 9999px, 72px, 0);
+  }
+  10% {
+    clip: rect(28px, 9999px, 27px, 0);
+  }
+  15% {
+    clip: rect(66px, 9999px, 3px, 0);
+  }
+  20% {
+    clip: rect(69px, 9999px, 59px, 0);
+  }
+  25% {
+    clip: rect(58px, 9999px, 70px, 0);
+  }
+  30% {
+    clip: rect(58px, 9999px, 63px, 0);
+  }
+  35% {
+    clip: rect(5px, 9999px, 22px, 0);
+  }
+  40% {
+    clip: rect(42px, 9999px, 16px, 0);
+  }
+  45% {
+    clip: rect(67px, 9999px, 9px, 0);
+  }
+  50% {
+    clip: rect(8px, 9999px, 44px, 0);
+  }
+  55% {
+    clip: rect(98px, 9999px, 7px, 0);
+  }
+  60% {
+    clip: rect(60px, 9999px, 67px, 0);
+  }
+  65% {
+    clip: rect(23px, 9999px, 23px, 0);
+  }
+  70% {
+    clip: rect(86px, 9999px, 53px, 0);
+  }
+  75% {
+    clip: rect(59px, 9999px, 12px, 0);
+  }
+  80% {
+    clip: rect(11px, 9999px, 96px, 0);
+  }
+  85% {
+    clip: rect(90px, 9999px, 59px, 0);
+  }
+  90% {
+    clip: rect(51px, 9999px, 32px, 0);
+  }
+  95% {
+    clip: rect(19px, 9999px, 35px, 0);
+  }
+  100% {
+    clip: rect(25px, 9999px, 97px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
