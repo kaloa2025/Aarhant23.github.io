@@ -24,8 +24,8 @@ body {
 }
 #nav_logo
 {
-    min-width:25%;
-    max-width: 25%;
+    min-width:20%;
+    max-width: 50%;
     margin-left:20px;
     padding: 2px;
 }
@@ -76,14 +76,14 @@ ul {
   width:100%;
 }
 #li1{
-  width: 80%;
+  width: 100%;
   text-align: start;
   padding-top: 10px;
 }
 #h_intro
 {
   width:60%;
-  padding-top: 10%;
+  padding-top: 8%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5px;
