@@ -24,9 +24,10 @@ body {
 }
 #nav_logo
 {
-    min-width:50%;
-    max-width: 60%;
+    min-width:10%;
+    max-width: 25%;
     margin-left:20px;
+    padding: 2px;
 }
 #nav_but
 {
@@ -70,6 +71,15 @@ ul {
   background-size: cover;
   height:100%;
 }
+#h_table1
+{
+  width:100%;
+}
+#li1{
+  width: 80%;
+  text-align: start;
+  padding-top: 10px;
+}
 #h_intro
 {
   width:60%;
@@ -89,10 +99,10 @@ ul {
   background-image: url(but_bg.png);
   background-position: center;
   border-width: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 30px;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -114,19 +124,29 @@ text-align:right}
   font-weight: bolder;
   font-size: 650%;
   position: relative;
-  width: 50%;
   margin-bottom: 5%;
   margin-left: 25%;
   margin-right: 25%;
 }
 .glitch:hover
 {
-  width:80%;
-  margin-left: 10%;
-  font-size: 670%;
-  margin-right: 10%;
+  color:rgba(0, 0, 0, 0);
 }
-
+/*
+#alien
+{
+  z-index: -1;
+  display: block;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#alien:hover
+{
+  display: none;
+  opacity: 50%;
+  
+}*/
 #h_p2
 {
   text-align: center;
@@ -150,7 +170,7 @@ text-align:right}
 {
   text-align: center;
   font-size: small;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
@@ -462,14 +482,7 @@ a:hover
   margin-top: -3%;
   padding: 1%;
 }
-
-
 @media only screen and (max-width: 600px) {
-#li1{
-  max-width: 250px;
-  padding-top: 2%;
-  text-align: start;
-}
   #t1
 {
   z-index: -1;
@@ -536,15 +549,12 @@ a:hover
   font-size: 250%;
   position: relative;
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 17%;
+  margin-right: 17%;
 }
 .glitch:hover
 {
-  width:60%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 270%;
+  color: transparent;
 }
 #h_but
 {
@@ -698,9 +708,9 @@ a:hover
   content: attr(data-text);
   position: absolute;
   left: -2px;
-  text-shadow: 1px 0 blue;
+  text-shadow: 1px 0 rgb(0, 255, 55);
   top: 0;
-  color: white;
+  color:#00f11c8b;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
