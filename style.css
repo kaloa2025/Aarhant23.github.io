@@ -68,7 +68,7 @@ ul {
   background-repeat: no-repeat;
   background-position:bottom;
   width:100%;
-  background-size: cover;
+  background-size:cover;
   height:100%;
 }
 #h_table1
@@ -488,36 +488,27 @@ a:hover
 }
 #at
 {
-  z-index: -1;
   width: 90%;
   margin-left: 5%;
   margin-right:5%;
   text-align: center;
-  margin-bottom: 11%;
+  margin-bottom: 15%;
 }
 #atab
 {
-  z-index: -1;
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
   background-color: rgba(240, 248, 255, 0.142);
   margin-bottom: 10%;
+  padding: 10%;
 }
 #ap
 {
-  font-weight: 100;
-  font-size: xx-small;
-
+  font-weight:lighter;
+  font-size:150px;
 }
-#atp
-{
-  font-weight: 600;
-  font-size: x-large;
-  color:#45EDF2;
-  margin-bottom: -5%;
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   #t1
 {
   z-index: -1;
@@ -602,7 +593,7 @@ a:hover
   margin-left: 5%;
   margin-right:5%;
   text-align: center;
-  margin-bottom: 11%;
+  margin-bottom: 15%;
 }
 #atab
 {
@@ -611,7 +602,7 @@ a:hover
   margin-left: 5%;
   margin-right: 5%;
   background-color: rgba(240, 248, 255, 0.142);
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 }
 #ap
