@@ -233,8 +233,8 @@ text-align:right}
 #t_p1{
 text-align: center;
 margin-top: 0%;
-font-size: medium;
-font-weight: 400;
+font-size: x-large;
+font-weight: 100;
 letter-spacing: 2px;
 width: 80%;
 margin-left: 10%;
@@ -254,14 +254,15 @@ margin-right: 10%;
 }
 #about
 {
-  padding-top: 80%;
+  padding-top: 3%;
   background-image:url("aboutbg.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
   background-size:cover;
   background-attachment:local;
-  width: 100%;
+  max-width: 100%;
+  height:max-content;
 }
 #tv
 {
@@ -562,6 +563,28 @@ a:hover
 {
   margin-bottom:10%;
 }
+#at
+{
+  width: 90%;
+  margin-left: 5%;
+  margin-right:5%;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: -10%;
+}
+
+}
+#ap
+{
+  font-weight: 100;
+  font-size: xx-small;
+}
+#atp
+{
+  font-weight: 600;
+  font-size: x-large;
+  color:#45EDF2;
+  margin-bottom: -5%;
 }
 @keyframes noise-anim {
   0% {
