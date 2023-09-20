@@ -94,6 +94,7 @@ ul {
 {
   text-align: right;
 }
+
 #h_but
 {
   background-image: url(but_bg.png);
@@ -109,6 +110,7 @@ ul {
     font-weight:400;
     cursor: pointer;
     max-width:100%;
+    margin-bottom: 5%;
 }
 #h_td1
 {font-weight: lighter;}
@@ -120,7 +122,7 @@ text-align:right}
   text-align: center;
 }
 .glitch {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: 650%;
   position: relative;
@@ -169,17 +171,17 @@ text-align:right}
 #h_p3
 {
   text-align: center;
-  font-size: small;
+  font-size:medium;
   margin-bottom: 7%;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   letter-spacing: 1px;
 }
 #h_p4
 {
   text-align: center;
-  padding-bottom: 8%;
+  padding-bottom: 10%;
 }
 #t1
 {
@@ -632,7 +634,7 @@ a:hover
   left: 2px;
   text-shadow: -1px 0 red;
   top: 0;
-  color: white;
+  color: rgb(255, 255, 255);
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
@@ -710,7 +712,7 @@ a:hover
   left: -2px;
   text-shadow: 1px 0 rgb(0, 255, 55);
   top: 0;
-  color:#00f11c8b;
+  color:#00c3ff;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
