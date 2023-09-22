@@ -373,7 +373,30 @@ margin-right: 10%;
 }
 #f_faq
 {
-  text-align:center;
+  text-align:left;
+}
+#faq_table{
+  width: 80%;
+  /* border: 1px solid white; */
+  margin-left: auto;
+  margin-right: auto;
+  /* border-collapse: collapse; */
+
+}
+#faq_td{
+  /* border: 1px solid white; */
+  transition: all .3s ease-in;
+  cursor: pointer;
+  
+}
+/* #faq_tr{ */
+  /* border: 1px solid white; */
+/* } */
+#faq_td:hover{
+  transform: scale(1.05);
+}
+#que{
+  color:#45EDF2;
 }
 #r_form
 {
