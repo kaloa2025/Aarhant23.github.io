@@ -24,8 +24,8 @@ body {
 }
 #nav_logo
 {
-    min-width:20%;
-    max-width: 70%;
+    min-width:15%;
+    max-width: 50%;
     margin-left:20px;
     padding: 2px;
 }
@@ -124,11 +124,14 @@ text-align:right}
 .glitch {
   color: rgb(255, 255, 255);
   font-weight: bolder;
-  font-size: 650%;
+  font-size:380%;
   position: relative;
-  margin-bottom: 5%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width:80%;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  align-items: center;
 }
 .glitch:hover
 {
@@ -177,6 +180,10 @@ text-align:right}
   margin-left: 20%;
   margin-right: 20%;
   letter-spacing: 1px;
+}
+.section
+{
+  z-index: 1;
 }
 #h_p4
 {
@@ -254,16 +261,14 @@ margin-right: 10%;
 }
 #about
 {
-  padding:5%;
-  margin-top: 10%;
   background-image:url("aboutbg.png");
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
   background-size:cover;
-  background-attachment:local;
-  max-width: 100%;
-  height:max-content;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  z-index: -1;
+  padding-bottom: 35%;
 }
 #tv
 {
@@ -364,6 +369,7 @@ margin-right: 10%;
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
+  font-size: larger;
 }
 #f_p2
 {
@@ -448,9 +454,7 @@ margin-right: 10%;
 
 #f_credits
 {
-  margin-top: -1%;
   width:100%;
-  text-align: center;
   font-size:smaller;
 }
 #p_credits
@@ -501,13 +505,58 @@ a:hover
 
 #c_tble
 {
-  text-align: center;
+  text-align:justify;
+  width: 100%;
+  border-width: 0%;
+  border-spacing:0px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+#fot_tab
+{
+  width: 100%;
+  text-align:center;
+  border-spacing:0%;
+  padding-left: 2%;
+}
+#fot_head
+{
+  color: #00c3ff;
+  font-size:larger;
+  border-spacing:0%;
+  font-weight: bold;
+  padding-left: 2%;
+  padding-bottom: 1%;
+}
+#foot0_tab
+{
   font-size:smaller;
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
-  margin-top: -3%;
-  padding: 1%;
+  border-spacing:0%;
+  padding-left: 2%;
+}
+#fot2_tab
+{
+  font-size: small;
+  text-align: left;
+  border-spacing:0%;
+  padding-left: 2%;
+}
+#cre
+{
+  font-size:small;
+  font-weight:400;
+  padding-left: 2%;
+  border-spacing:0%;
+  text-align: center;
+}
+#cre2
+{
+  font-size:small;
+  padding-left: 2%;
+  font-weight:light;
+  border-spacing:0%;
+  text-align: center;
+  margin-top: -5px;
 }
 #at
 {
@@ -516,6 +565,7 @@ a:hover
   margin-right:5%;
   text-align: center;
   margin-bottom: 15%;
+  z-index: 1;
 }
 #atab
 {
@@ -525,6 +575,7 @@ a:hover
   background-color: rgba(240, 248, 255, 0.142);
   margin-bottom: 10%;
   padding: 10%;
+  z-index: 1;
 }
 #ap
 {
@@ -532,13 +583,12 @@ a:hover
   font-size:150px;
 }
 @media only screen and (max-width: 400px) {
-  #t1
+ /* #t1
 {
   z-index: -1;
   max-width: 25%;
   min-width: 20%;
-  padding-left: 12%;
-  margin-bottom:1%;
+  margin-bottom:  3%;
 }
 #t2
 {
@@ -547,14 +597,14 @@ a:hover
   min-width: 25%;
   padding-left: 6%;
   margin-bottom: 5%;
+  margin-left: 2%;
 }
 #t3
 {
   z-index: -1;
   max-width: 20%;
   min-width: 20%;
-  padding-left: 10%;
-  margin-bottom:15%;
+  margin-bottom:20%;
 }
 #t4
 {
@@ -571,7 +621,7 @@ a:hover
 #t4:hover
 {
   max-width: 22%;
-}
+}*/
 #nav_but
 {
     background-color: transparent;
@@ -591,19 +641,6 @@ a:hover
     cursor: pointer;
     max-width:100%;
     font-size: small;
-}
-.glitch {
-  color: white;
-  font-weight: bolder;
-  font-size: 250%;
-  position: relative;
-  width: 60%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.glitch:hover
-{
-  color: transparent;
 }
 #h_but
 {
@@ -709,14 +746,18 @@ a:hover
 .glitch:after {
   content: attr(data-text);
   position: absolute;
-  left: 2px;
+  width:100%;
+  left:0%;
+  right:0%;
   text-shadow: -1px 0 red;
   top: 0;
   color: rgb(255, 255, 255);
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  animation: noise-anim 3s infinite linear alternate-reverse;
+  text-align: center;
+  align-items: center;
 }
 
 @keyframes noise-anim-2 {
@@ -787,7 +828,9 @@ a:hover
 .glitch:before {
   content: attr(data-text);
   position: absolute;
-  left: -2px;
+  width:100%;
+  left:0%;
+  right:0%;
   text-shadow: 1px 0 rgb(0, 255, 55);
   top: 0;
   color:#00c3ff;
@@ -795,4 +838,328 @@ a:hover
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
+  text-align: center;
+  align-items: center;
+}
+#events {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+#h11 {
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+#evcont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 70%;
+  gap: 3%;
+  background-color: #fff;
+  flex-wrap: wrap;
+  padding: 1% 2% 0% 2%;
+  align-items: center;
+  border-radius: 30px;
+
+  position: relative;
+}
+#days {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  color: #fff;
+  background-color: black;
+  width: 60%;
+  padding: 0.5em 0.5em;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+#days p {
+  cursor: pointer;
+}
+
+#dinfo {
+  display: flex;
+
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.linear {
+  height: 3px;
+  width: 78%;
+  background: linear-gradient(
+    0deg,
+    blue 0%,
+    blue 20%,
+    rgb(95, 68, 68) 21%,
+    rgb(87, 68, 68) 100%
+  );
+}
+
+.nxtbtn button {
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  background-color: white;
+}
+
+.ename {
+  width: 90%;
+  height: 45%;
+  background: url("image\ 17.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.ename h1 {
+  font-size: 6.5vw;
+  font-weight: 800;
+  mix-blend-mode: color-dodge;
+  color: transparent;
+  -webkit-text-stroke: 2.5px rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-background-clip: text;
+}
+
+.tag {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  width: 93%;
+  display: flex;
+  text-align: center;
+}
+
+.moreinfo {
+  height: 10%;
+  width: 85%;
+  display: flex;
+  gap: 4%;
+  margin-top: 2px;
+}
+
+.mcont {
+  display: flex;
+  flex-direction: column;
+}
+
+.btxt h3 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shape {
+  width: 27%;
+  height: 12%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  /* border-radius: 30px; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: -20px;
+}
+
+.rbtn button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 26%;
+  height: 10.5%;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.rbtn button:hover {
+  background-color: rgb(154, 14, 19);
+  box-shadow: 0 10px 50px rgb(175, 30, 30);
+  letter-spacing: 1px;
+}
+
+.rbtn button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.rbtn button span {
+  position: relative;
+  z-index: 3;
+}
+
+/* media queries */
+
+@media (max-width: 650px) {
+  #evcont {
+    height: 93%;
+    width: 100%;
+    gap: 2.8%;
+
+    padding: 0.7em 2% 0% 2%;
+  }
+
+  #days {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    gap: 1%;
+    color: #fff;
+    background-color: black;
+    width: 89%;
+    border-radius: 100px;
+    text-transform: uppercase;
+  }
+
+  #dinfo {
+    display: flex;
+
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .linear {
+    height: 3px;
+    width: 60%;
+  }
+
+  .nxtbtn button {
+    padding: 0.5em 0.7em;
+    border-radius: 1em;
+    background-color: white;
+  }
+  .ename {
+    width: 93%;
+    height: 32%;
+
+    background-size: 100% 100%;
+  }
+
+  .ename h1 {
+    font-size: 7.5vw;
+  }
+
+  .tag {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .desc {
+    width: 96%;
+    display: flex;
+    text-align: center;
+  }
+
+  .moreinfo {
+    height: 10%;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 2px;
+  }
+
+  .mcont h3 {
+    font-size: 38px;
+  }
+  .mcont p {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+  .mcont .stext {
+    width: 70%;
+  }
+  .shape {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .rbtn button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width: 33.5%;
+    height: 9%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1030px) {
+  #evcont {
+    height: 93%;
+    width: 90%;
+    gap: 2.8%;
+    padding: 0.7em 2% 0% 2%;
+  }
+  .rbtn button {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+  #evcont {
+    height: 93%;
+    width: 100%;
+    gap: 2.8%;
+    padding: 0.7em 2% 0% 2%;
+  }
+  .shape {
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .rbtn button {
+    width: 24%;
+    height: 8.6%;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .mcont h3 {
+    font-size: 43px;
+  }
+  .mcont p {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
 }
