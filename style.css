@@ -259,17 +259,6 @@ margin-right: 10%;
   font-weight: 200;
   letter-spacing: 1px;
 }
-#about
-{
-  background-image:url("aboutbg.png");
-  background-repeat: no-repeat;
-  background-size:cover;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  z-index: -1;
-  padding-bottom: 35%;
-}
 #tv
 {
   z-index: -1;
@@ -509,8 +498,9 @@ a:hover
   width: 100%;
   border-width: 0%;
   border-spacing:0px;
-  padding-left: 25%;
-  padding-right: 25%;
+  background-color: #0d0d0d;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 #fot_tab
 {
@@ -519,40 +509,46 @@ a:hover
   border-spacing:0%;
   padding-left: 2%;
 }
+#fot_tab1
+{
+  width: 50%;
+  text-align:left;
+  border-spacing:0%;
+  padding-right: 20%;
+  margin-top: -1%;
+
+}
+
 #fot_head
 {
-  color: #00c3ff;
+  color:#45EDF2;
   font-size:larger;
-  border-spacing:0%;
-  font-weight: bold;
-  padding-left: 2%;
+  font-weight:500;
   padding-bottom: 1%;
 }
 #foot0_tab
 {
   font-size:smaller;
   border-spacing:0%;
-  padding-left: 2%;
+  padding-right: 18%;
 }
 #fot2_tab
 {
   font-size: small;
-  text-align: left;
   border-spacing:0%;
-  padding-left: 2%;
+  text-align:start;
+  vertical-align: top;
 }
 #cre
 {
   font-size:small;
   font-weight:400;
-  padding-left: 2%;
   border-spacing:0%;
   text-align: center;
 }
 #cre2
 {
   font-size:small;
-  padding-left: 2%;
   font-weight:light;
   border-spacing:0%;
   text-align: center;
@@ -560,29 +556,68 @@ a:hover
 }
 #at
 {
-  width: 90%;
-  margin-left: 5%;
-  margin-right:5%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right:20%;
   text-align: center;
   margin-bottom: 15%;
+  position: relative;
+  margin-top: -5%;
   z-index: 1;
 }
 #atab
 {
+  position: relative;
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
   background-color: rgba(240, 248, 255, 0.142);
-  margin-bottom: 10%;
-  padding: 10%;
-  z-index: 1;
+  padding: 20%;
+  z-index: -1;
 }
 #ap
 {
   font-weight:lighter;
   font-size:150px;
 }
-@media only screen and (max-width: 400px) {
+
+#about
+{
+  background-image:url("aboutbg.png");
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:bottom;
+  position:absolute;
+  width: 100%;
+  height: 140%;
+  z-index: -1;
+}
+#ap
+{
+  font-weight: 100;
+  font-size: 100%;
+}
+#atp
+{
+  font-weight: 1000;
+    font-size:300%;
+  text-align: center;
+  color:#45EDF2;
+  margin-bottom: -5%;
+}
+@media only screen and (max-width: 600px) {
+
+  #about
+  {
+    background-image:url("aboutbg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    position:absolute;
+    background-position:top;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
  /* #t1
 {
   z-index: -1;
@@ -648,12 +683,13 @@ a:hover
 }
 #at
 {
-  z-index: -1;
-  width: 90%;
-  margin-left: 5%;
-  margin-right:5%;
+  z-index: 1;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-right:10%;
   text-align: center;
-  margin-bottom: 15%;
+  margin-top: -35%;
 }
 #atab
 {
@@ -664,7 +700,6 @@ a:hover
   background-color: rgba(240, 248, 255, 0.142);
   margin-bottom: 5%;
 }
-}
 #ap
 {
   font-weight: 100;
@@ -673,11 +708,14 @@ a:hover
 }
 #atp
 {
-  font-weight: 600;
-  font-size: x-large;
+  font-weight: 700;
+  font-size: xx-large;
+  text-align: center;
   color:#45EDF2;
   margin-bottom: -5%;
 }
+}
+
 @keyframes noise-anim {
   0% {
     clip: rect(50px, 9999px, 30px, 0);
