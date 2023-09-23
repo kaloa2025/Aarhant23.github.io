@@ -571,7 +571,7 @@ a:hover
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgba(240, 248, 255, 0.142);
+  background-color: transparent;
   padding: 20%;
   z-index: -1;
 }
@@ -605,6 +605,135 @@ a:hover
   color:#45EDF2;
   margin-bottom: -5%;
 }
+
+#a11
+{
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-size: large;
+}
+#a12
+{
+  font-size:smaller;
+  margin-top: -5%;
+}
+
+
+.a1
+{
+  width:20%;
+  z-index: -1;
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 8%;
+  background-color: #1e1e1e44;
+  padding:1%;
+}
+.a2
+{
+  width:20%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 78%;
+  background-color: #1e1e1e44;
+  padding:1%;
+}
+.a3
+{
+  width:20%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 3%;
+  background-color: #1e1e1e44;
+  padding:1%;
+}
+.a4
+{
+  width:20%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 78%;
+  background-color: #1e1e1e44;
+  padding:1%;
+}
+.a1i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 31%;
+}
+.a2i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 72%;
+}.a3i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 12%;
+}.a4i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 40%;
+}
+.a_c_1
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 32%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.a_c_2
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 72%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.a_c_3
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 31%;
+  margin-left: 11%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.a_c_4
+{
+  z-index: 1;
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 46%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
 
   #about
@@ -618,6 +747,88 @@ a:hover
     height: 100%;
     z-index: -1;
   }
+  
+#a11
+{
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-size: small;
+}
+#a12
+{
+  font-size:xx-small;
+  margin-top: -5%;
+}
+
+  .a1
+{
+  width:40%;
+  z-index: -1;
+  position: absolute;
+  margin-top: -15%;
+  margin-left: 2%;
+  background-color: #1e1e1e44;
+  font-size: xx-small;
+}
+.a2
+{
+  width:36%;
+  z-index: -1;
+  position: absolute;
+  margin-top: -13%;
+  margin-left: 60%;
+  background-color: #1e1e1e44;
+  font-size: xx-small;
+}
+.a3
+{
+  width:35%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 0%;
+  background-color: #1e1e1e44;
+  font-size: xx-small;
+}
+.a4
+{
+  width:28%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 70%;
+  background-color: #1e1e1e44;
+  font-size: xx-small;
+}
+.a1i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 30%;
+}.a2i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 72%;
+}.a3i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-top: 52%;
+  margin-left: 26%;
+}.a4i
+{
+  width:5%;
+  z-index: -1;
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 49%;
+}
  /* #t1
 {
   z-index: -1;
@@ -697,7 +908,7 @@ a:hover
   width:90%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgba(240, 248, 255, 0.142);
+  background-color: transparent;
   margin-bottom: 5%;
 }
 #ap

@@ -222,3 +222,52 @@ day4.addEventListener("click", function (e) {
     }
   });
 });
+
+function showd1()
+{
+    var s=document.getElementById("show1");
+    if(s.style.display==="none")
+    {
+        s.style.display="block";
+    }
+    else
+    {
+        s.style.display="none";
+    }
+}
+function showd2()
+{
+    var s=document.getElementById("show2");
+    if(s.style.display==="none")
+    {
+        s.style.display="block";
+    }
+    else
+    {
+        s.style.display="none";
+    }
+}
+function showd3()
+{
+    var s=document.getElementById("show3");
+    if(s.style.display==="none")
+    {
+        s.style.display="block";
+    }
+    else
+    {
+        s.style.display="none";
+    }
+}
+function showd4()
+{
+    var s=document.getElementById("show4");
+    if(s.style.display==="none")
+    {
+        s.style.display="block";
+    }
+    else
+    {
+        s.style.display="none";
+    }
+}
