@@ -735,6 +735,68 @@ a:hover
 }
 
 @media only screen and (max-width: 600px) {
+  
+.glitch {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size:200%;
+  position: relative;
+  width:80%;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.a_c_1
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 21%;
+  margin-left:20%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  font-size: xx-small;
+}
+.a_c_2
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 77%;
+  color: #45EDF2;
+  background-color: transparent;
+  border-style: none;
+  font-size: xx-small;
+  cursor: pointer;
+}
+.a_c_3
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: 51%;
+  margin-left: 8%;
+  color: #45EDF2;
+  font-size: xx-small;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.a_c_4
+{
+  z-index: 1;
+  position: absolute;
+  margin-left: 76%;
+  margin-top: 50%;
+  color: #45EDF2;
+  font-size: xx-small;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
 
   #about
   {
@@ -900,7 +962,7 @@ a:hover
   margin-left: 10%;
   margin-right:10%;
   text-align: center;
-  margin-top: -35%;
+  margin-top: -45%;
 }
 #atab
 {
@@ -914,16 +976,17 @@ a:hover
 #ap
 {
   font-weight: 100;
+  margin-top: -2%;
   font-size: xx-small;
 
 }
 #atp
 {
   font-weight: 700;
-  font-size: xx-large;
+  font-size: larger;
   text-align: center;
   color:#45EDF2;
-  margin-bottom: -5%;
+  margin-bottom: 3%;
 }
 }
 
